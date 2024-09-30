@@ -148,3 +148,14 @@
 
 ### ④ React
 - SNSと同時にツール的な要素も絡んでくるため、素早い画面遷移（SPA化）、スムーズな操作感、モダンなUIを実現するために、APIモードのRailsを基盤にして、フロントをReactで実装します。
+
+## ER図リンク
+https://drive.google.com/file/d/1byKBHlWk5Dt7rxgGC58inq15Hu9bjRrZ/view?usp=sharing
+
+### ER図補足
+- feedsテーブルはlike、bookmark、comment等のActivityをポリモーフィックに管理する
+- audio_filesテーブルはprojects、collaborationsをポリモーフィックに管理する
+#### enumについて
+- projects/status enum status: { 0:draft, 1:open, 2:closed }
+- projects/visibility enum visibility: { 0:public, 1:private, 2:friends_only }
+- collaborations/status enum status: { 0:pending, 1:approved, 2:rejected }
