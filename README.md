@@ -159,3 +159,6 @@ https://drive.google.com/file/d/1byKBHlWk5Dt7rxgGC58inq15Hu9bjRrZ/view?usp=shari
 - projects/status enum status: { 0:draft, 1:open, 2:closed }
 - projects/visibility enum visibility: { 0:public, 1:private, 2:friends_only }
 - collaborations/status enum status: { 0:pending, 1:approved, 2:rejected }
+
+## 画面遷移図リンク
+https://www.figma.com/design/kQs5aYl2Gw0xblJSPErzKL/%E7%94%BB%E9%9D%A2%E9%81%B7%E7%A7%BB%E5%9B%B3-(JamMy)?node-id=4662-14&t=y76lxv7b8GEd4rdt-1
